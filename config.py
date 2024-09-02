@@ -5,22 +5,22 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "23578854")
+    API_HASH  = os.environ.get("API_HASH", "3257596471c6d08212b3c0a47cc815ea")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7255149716:AAEuWpRWIy9uETfiuyyYVZgNTPrLILOFXS4") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","cluster0")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://zoey611870:5ErfLUWPKH44hkqK@cluster0.7doyqob.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/ed13414eb379f31aae9bc.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1302933634').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Nameless_Botz") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002177962671"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
@@ -39,13 +39,13 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @Madflix_Bots"""
+<b>Bot Is Owned By :</b> @Nameless_Being"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/Madflix_Bots>Madflix Botz</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/MadflixOfficials>Jishu Developer</a>
+├<b>🖥️ Developer</b> : <a href=https://t.me/Nameless_Botz>Nameless Botz</a> 
+├<b>👨‍💻 Real Programer</b> : <a href=https://t.me/MadflixOfficials>Jishu Developer</a>
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
@@ -75,7 +75,7 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/MadflixOfficials>Developer</a>
+𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Nameless_being>Bot Owner</a>
 """
 
     PROGRESS_BAR = """\n
@@ -90,7 +90,7 @@ class Txt(object):
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> `madflixofficial@axl`
+<b>🛍 UPI ID:</b> `628706468@axl`
 """
 
 
@@ -98,7 +98,7 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>-map 0 -c:s copy -c:a copy -c:v copy -metadata title="Encoded By :- @Madflix_Bots" -metadata author="@JishuDeveloper" -metadata:s:s title="Subtitled By :- @Madflix_Bots" -metadata:s:a title="By :- @Madflix_Bots" -metadata:s:v title="Encoded By :- @Madflix_Bots"</code>
+<code>-map 0 -c:s copy -c:a copy -c:v copy -metadata title="Encoded By :- @Nameless_Botz" -metadata author="@Namesless_being" -metadata:s:s title="Subtitled By :- @Nameless_Botz" -metadata:s:a title="By :- @Nameless_Botz" -metadata:s:v title="Encoded By :- @Nameless_Botz"</code>
 
 💬 For Any Help Contact @CallAdminRobot
 """
