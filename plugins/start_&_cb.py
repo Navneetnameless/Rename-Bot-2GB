@@ -43,7 +43,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.HELP_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("⚡ 4GB Rename Bot", url="https://t.me/FileRenameXProBot")],
+                [InlineKeyboardButton("Auto Rename Bot", url="https://t.me/Wolf_autorename_bot")],
                 [InlineKeyboardButton("🔒 Close", callback_data = "close"),
                 InlineKeyboardButton("◀️ Back", callback_data = "start")]
             ])            
@@ -53,7 +53,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("🤖 More Bots", url="https://t.me/Madflix_Bots/7")],
+                [InlineKeyboardButton("🤖 More Bots", url="https://t.me/Nameless_Botz")],
                 [InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")]
             ])            
@@ -75,7 +75,7 @@ async def cb_handler(client, query: CallbackQuery):
 async def donate(client, message):
 	text = Txt.DONATE_TXT
 	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/Namesless_Being"), 
+        			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/Nameless_Being"), 
         			InlineKeyboardButton("✖️ Close",callback_data = "close") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
