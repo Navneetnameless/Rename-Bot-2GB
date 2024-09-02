@@ -100,7 +100,7 @@ For Example :-
 
 <code>-map 0 -c:s copy -c:a copy -c:v copy -metadata title="Encoded By :- @Nameless_Botz" -metadata author="@Namesless_being" -metadata:s:s title="Subtitled By :- @Nameless_Botz" -metadata:s:a title="By :- @Nameless_Botz" -metadata:s:v title="Encoded By :- @Nameless_Botz"</code>
 
-💬 For Any Help Contact @CallAdminRobot
+💬 For Any Help Contact @Nameless_being
 """
 
 
